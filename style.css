@@ -1,11 +1,17 @@
 body { 
     font-family: Arial, 
-    sans-serif; margin: 0; 
-    padding: 0; background: #f9f9f9; 
-    color: #333; }
+    sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-image: url('media/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #2c2002; }
 
 header { 
-    background: #fff; 
+    background-color: #f5f3f3; 
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
     padding: 20px; }
 
@@ -23,7 +29,7 @@ header h1 {
 header nav a { 
     margin-left: 15px; 
     text-decoration: none; 
-    color: #444; 
+    color: #070000; 
     font-size: 14px; }
 
 header nav a:hover { 
@@ -32,33 +38,39 @@ header nav a:hover {
 main { 
     max-width: 1000px; 
     margin: auto; 
-    padding: 40px 20px; }
+    padding: 40px 20px;
+    
+}
 
 section { 
+    
     margin-bottom: 50px; }
 
 h2 { font-size: 22px; 
     margin-bottom: 15px; 
-    color: #222; }
+    color: #641cf4; }
 
-p { 
+p { margin: 30px; 
+    text-align: justify;   
     line-height: 1.6; }
 
 .hero { 
+    height: 500px;
     display: grid; 
     grid-template-columns: 2fr 1fr; 
     gap: 20px; 
     align-items: center; }
 
 .hero img { 
-    width: 180px;
-    height: 180px; 
-    border-radius: 50%; 
+   
+    width: 250px; 
+    border-radius: 10%; 
     background: #ddd; 
-    object-fit: cover; }
+    object-fit: cover;
+ }
 
 .skills, .education, .certifications, .experience, .projects, .contact { 
-    background: #fff; 
+    background: #fbfcfa; 
     padding: 20px; 
     border-radius: 10px; 
     box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
@@ -72,15 +84,19 @@ p {
 
 footer { 
     text-align: center; 
-    font-size: 13px; color: #666; 
-    padding: 20px; background: #fff; 
+    font-size: 13px; 
+    background-color: #f5f3f3; 
+    color: #272626; 
+    padding: 20px; 
+    height: 40px;
     border-top: 1px solid #eee; }
     
 .btn { 
     display: inline-block; 
     padding: 8px 14px; 
     margin-top: 10px; 
-    border: 1px solid #0077cc; 
+    background-color: #fff;
+    border: 2px solid #0077cc; 
     color: #0077cc; 
     border-radius: 5px; 
     text-decoration: none; 
@@ -90,3 +106,29 @@ footer {
     background: #0077cc; 
     color: #fff; }
   
+.Certificate {
+  height: 250px;
+  border-radius: 10px;
+}
+
+.divser {
+    background-color: #f3ffeb;
+    border-radius: 10px;
+}
+
+
+.Certificates {
+  height: 400px;  
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+  
+}
+
+
+.Certificates::-webkit-scrollbar {
+  display: none;
+}
