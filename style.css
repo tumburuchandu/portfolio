@@ -2,7 +2,6 @@ body {
     font-family: Arial, 
     sans-serif; 
     margin: 0; 
-    padding: 0; 
     background-image: url('media/background.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -16,9 +15,16 @@ header {
     padding: 20px; }
 
 header .container { 
-    display: flex; justify-content: 
-    space-between; align-items: 
-    center; max-width: 1000px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    position:fixed;
+    top: 0;            
+    left: 0;
+    right: 0;
+    z-index: 1000;     
+    background: #fff;  
+    padding: 10px 20px;
     margin: auto; }
 
 header h1 { 
@@ -48,7 +54,7 @@ section {
 
 h2 { font-size: 22px; 
     margin-bottom: 15px; 
-    color: #641cf4; }
+    color: #322c86; }
 
 p { margin: 30px; 
     text-align: justify;   
@@ -57,6 +63,7 @@ p { margin: 30px;
 .hero { 
     height: 500px;
     display: grid; 
+    margin-top: 50px;
     grid-template-columns: 2fr 1fr; 
     gap: 20px; 
     align-items: center; }
@@ -70,7 +77,9 @@ p { margin: 30px;
  }
 
 .skills, .education, .certifications, .experience, .projects, .contact { 
+    scroll-margin-top: 70px;
     background: #fbfcfa; 
+    margin-top: 50px;
     padding: 20px; 
     border-radius: 10px; 
     box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
