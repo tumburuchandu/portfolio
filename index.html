@@ -1,143 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tumburu Chandu Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandu Tumburu | Data Scientist & AI/ML Engineer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Background Elements -->
+    <div class="bg-gradient-1"></div>
+    <div class="bg-gradient-2"></div>
 
-<header>
-  <div class="container">
-    <h1>Tumburu Chandu</h1>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#skills">Skills</a>
-      <a href="#education">Education</a>
-      <a href="#certifications">Certifications</a>
-      <a href="#contact">Contact</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">CT<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </nav>
-  </div>
-</header>
 
-<main>
-  <section class="hero">
-    <div>
-      <h2>Hi, I am Tumburu Chandu</h2>
-      <p>Aspiring Software Development Professional with a robust foundation in computer science and substantial experience in 
-project management and technical proficiency. Demonstrated capability to orchestrate educational initiatives and 
-cultivate collaborative teamwork, seeking to leverage my expertise in engineering within a dynamic organization.</p>
-      <p><strong>Location:</strong> Marathahalli, Bengaluru – 560037<br>
-         <strong>Phone:</strong> +91 79891 81931<br>
-         <strong>Email:</strong> tumburuchandu@gmail.com</p>
-      <a href="#contact" class="btn">Contact Me</a>
-    </div>
-    <div>
-      <img src="media/passphoto.jpg" alt="Photo of me">
-    </div>
-  </section>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+        <div class="container hero-container">
+            <div class="hero-content fade-in">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Chandu <span>Tumburu</span></h1>
+                <h2 class="title">Data Scientist | AI & Machine Learning Engineer</h2>
+                <p class="hero-desc">
+                    Delivering end-to-end machine learning and deep learning solutions. 
+                    Specializing in computer vision, NLP, and Generative AI to drive business value at scale.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/chandu-tumburu-a915b92b9" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/tumburuchandu" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:chandutumburu@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper fade-in">
+                <img src="media/passphoto.jpg" alt="Chandu Tumburu" class="hero-profile-img">
+            </div>
+        </div>
+    </section>
 
-  <section id="experience" class="experience">
-    <h2>Experience</h2>
-    <h3>Full Stack Developer Intern — BlackBuks Engineers</h3>
-    <p><em>Jan 2024 – Apr 2025</em></p>
-    <p>
-     Ibuilt responsive and dynamic web applications using HTML, CSS, JavaScript, and React.js, ensuring cross-browser compatibility and a mobile-first design. On the backend, I integrated the front-end with MongoDB and REST APIs to enable seamless data management and efficient storage. To improve performance, I implemented reusable React components, state management, and code-splitting strategies, making the applications faster and more maintainable. I also applied scalable and modular design principles to support future growth and larger user bases, while actively contributing to end-to-end development, including deployment, debugging, and performance tuning.
-    </p>
-  </section>
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title fade-in">About <span>Me</span></h2>
+            <div class="glass-card about-card fade-in">
+                <p>
+                    I am a results-driven Data Scientist and AI/ML Engineer with hands-on experience delivering end-to-end machine learning and deep learning solutions. 
+                    Proficient in Python, statistical modeling, data preprocessing, and model deployment. 
+                </p>
+                <p>
+                    My expertise spans computer vision (YOLOv8, DenseNet121, OpenCV), NLP/NLU, and Generative AI concepts including LLMs and Transformer architectures. 
+                    I am experienced in building RESTful ML pipelines with Flask and integrating structured and unstructured data sources.
+                </p>
+                <p>
+                    Adept at communicating analytical insights to non-technical stakeholders and working collaboratively in agile, cross-functional environments, 
+                    I am seeking to apply advanced analytics and predictive modeling expertise to drive business value at scale.
+                </p>
+                <div class="education-highlights mt-4">
+                    <h3>Education</h3>
+                    <div class="edu-item">
+                        <h4>B.Tech in Computer Science & Engineering (CGPA: 8.22)</h4>
+                        <p>Geethanjali Institute of Science & Technology, Nellore | 2021 – 2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="projects" class="projects">
-    <h2>Projects</h2>
-    <article>
-      <h3>Online Exam Integrity Monitoring System</h3>
-      <p><em>Jan 2025 – Apr 2025</em></p>
-      <p>Developed a deep learning–based proctoring solution to enhance fairness in online examinations. Implemented YOLOv8, YOLOv5, and DenseNet121 for real-time detection of abnormal behaviors such as unauthorized movement, presence of multiple faces, or suspicious activities. Built a Flask-based interactive dashboard for live monitoring and visualization of results. Designed the system for scalability, enabling deployment in large-scale online education platforms with minimal latency.</p>
-    </article>
-    <article>
-      <h3>Personal Portfolio Website</h3>
-      <p>Designed and developed a responsive personal portfolio website using HTML, CSS, and JavaScript to showcase projects and skills. Implemented a clean, user-friendly interface with mobile-first design principles for accessibility across devices. Integrated smooth navigation, interactive elements, and project highlights to create a professional online presence.</p>
-    </article>
-  </section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title fade-in">Technical <span>Skills</span></h2>
+            <div class="skills-grid">
+                
+                <div class="glass-card skill-category fade-in">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming</h3>
+                    <p>Python, SQL, JavaScript, HTML, CSS, Java (familiar), C/C++ (familiar)</p>
+                </div>
+                
+                <div class="glass-card skill-category fade-in">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h3>ML & Statistics</h3>
+                    <p>Machine Learning, Deep Learning, Statistical Modeling, Feature Engineering, Predictive Modeling, EDA, Scikit-learn, Pandas, NumPy</p>
+                </div>
 
-  <section id="skills" class="skills">
-    <h2>Technical Skills</h2>
-    <ul>
-      <li><strong>Languages & Frameworks:</strong> Java, Python, C, SQL, Spring, Spring Boot</li>
-      <br>
-      <li><strong>Web Development:</strong> HTML, CSS, JavaScript, React.js</li>
-      <br>
-      <li><strong>Tools & Databases:</strong> Git, MySQL, Eclipse, VS Code</li>
-      <br>
-      <li><strong>Soft Skills:</strong> Communication, Teamwork, Problem-Solving, Attention to Detail</li>
-      <br>
-    </ul>
+                <div class="glass-card skill-category fade-in">
+                    <div class="skill-icon"><i class="fas fa-eye"></i></div>
+                    <h3>Deep Learning & CV</h3>
+                    <p>CNNs, DenseNet121, YOLOv5, YOLOv8, OpenCV, TensorFlow, Keras, PyTorch</p>
+                </div>
 
-  </section>
+                <div class="glass-card skill-category fade-in">
+                    <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                    <h3>NLP / GenAI</h3>
+                    <p>NLP/NLU, LLM Fundamentals, Prompt Engineering, Transformers, Generative AI, Text Classification</p>
+                </div>
 
-  <section id="education" class="education">
-    <h2>Education</h2>
-    <p><strong>B.Tech in Computer Science & Engineering</strong><br>Geethanjali Institute of Science & Technology, Nellore (2021–2025) — CGPA: 8.3</p>
-    <p><strong>Intermediate (MPC)</strong><br>St. Mary’s Junior College, Nellore (2019–2021) — CGPA: 8.45</p>
-    <p><strong>SSC (10th)</strong><br>ZPP High School, Nellore (2018–2019) — GPA: 9.0</p>
-  </section>
+                <div class="glass-card skill-category fade-in">
+                    <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                    <h3>Big Data & Cloud</h3>
+                    <p>Big Data Analytics, Spark (familiar), AWS (familiar), Data Pipelines, Streaming vs. Static Data</p>
+                </div>
 
-  <section id="certifications" class="certifications">
-    <h2>Certifications</h2>
-    <ul>
-      <li>Java Full Stack Developer — KodNest</li>
-      <br>
-      <li>Full Stack Development Internship — BlackBuks Engineers</li>
-      <br>
-      <li>Python Programming — Spoken Tutorial, IIT Bombay</li>
-      <br>
-      <li>C Programming — Spoken Tutorial, IIT Bombay</li>
-      <br>
-      <li>HTML — Spoken Tutorial, IIT Bombay</li>
-      <br>
-      <li>MySQL — Spoken Tutorial, IIT Bombay</li>
-      <br>
-    </ul>
-    <h2>Certificates</h2>
-    <div class="Certificates">
-      
-      <diV class="divser"> 
-        <img src="media/Full-Stack-Certificate.png" alt="Full stack development Certificate" class="Certificate">
-        <p>Full Stack Development Internship — BlackBuks Engineers</p>
-      </diV>
-      <diV class="divser"> 
-        <img src="media/Python-Certificate.png" alt="Python Spoken tutorial Certficate" class="Certificate">
-        <p>Python Programming — Spoken Tutorial, IIT Bombay</p>
-      </diV>
-      <diV class="divser"> 
-        <img src="media/C-Certificate.png" alt="C programming Certificate" class="Certificate" >
-        <p>C Programming — Spoken Tutorial, IIT Bombay</p>
-      </diV>
-      <diV class="divser"> 
-        <img src="media/Html-Certificate.png" alt="Html Certficate" class="Certificate">
-        <p>HTML — Spoken Tutorial, IIT Bombay</p>
-      </diV>
-      <diV class="divser"> 
-        <img src="media/MySQL-Certificate.png" alt="MySQL Certificate" class="Certificate">
-        <p>MySQL — Spoken Tutorial, IIT Bombay</p>
-      </diV>
-    </div>
-  </section>
+                <div class="glass-card skill-category fade-in">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Databases</h3>
+                    <p>MySQL, SQL, NoSQL (aware), Graph Databases (Neo4j, GraphX)</p>
+                </div>
 
-  <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:tumburuchandu@gmail.com">tumburuchandu@gmail.com</a></p>
-    <p>Phone: +91 79891 81931</p>
-    <p>Location: Marathahalli, Bengaluru – 560037</p>
-    <a href="https://www.linkedin.com/in/tumburu-chandu-a915b92b9/" class="btn" target="_blank">LinkedIn</a>
-    <a href="https://github.com/tumburuchandu" class="btn" target="_blank">GitHub</a>
-  </section>
-</main>
+                <div class="glass-card skill-category fade-in">
+                    <div class="skill-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Visualization & Tools</h3>
+                    <p>Matplotlib, Seaborn, Power BI, Git, GitHub, Flask, RESTful APIs, Jupyter, Docker</p>
+                </div>
 
-<footer>
-  <p>© 2025 Tumburu Chandu · Portfolio</p>
-</footer>
+                <div class="glass-card skill-category fade-in">
+                    <div class="skill-icon"><i class="fas fa-users"></i></div>
+                    <h3>Soft Skills</h3>
+                    <p>Analytical Problem-Solving, Stakeholder Communication, Agile SDLC, Cross-functional Collaboration</p>
+                </div>
 
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title fade-in">Work <span>Experience</span></h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-card timeline-content">
+                        <h3>Full Stack Developer Intern</h3>
+                        <h4 class="company">BlackBucks Engineers</h4>
+                        <span class="date">Jan 2024 – Apr 2025</span>
+                        <ul>
+                            <li>Developed and maintained responsive data-driven web applications using React.js, JavaScript, HTML, and CSS.</li>
+                            <li>Integrated RESTful backend services and managed relational database operations, improving data retrieval efficiency.</li>
+                            <li>Collaborated in agile, cross-functional teams using Git/GitHub for version control; contributed to debugging and testing.</li>
+                            <li>Improved system scalability through code optimization, gaining practical exposure to end-to-end data flow pipelines.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured <span>Projects</span></h2>
+            <div class="projects-grid">
+                
+                <div class="glass-card project-card fade-in">
+                    <div class="project-media-carousel">
+                        <!-- Add as many images as you have for the steps here -->
+                        <img src="media/project1-step1.jpg" alt="Step 1" class="carousel-image">
+                        <img src="media/project1-step2.jpg" alt="Step 2" class="carousel-image">
+                        <img src="media/project1-step3.jpg" alt="Step 3" class="carousel-image">
+                        <img src="media/project1-step4.jpg" alt="Step 4" class="carousel-image">
+                        <img src="media/project1-step5.jpg" alt="Step 5" class="carousel-image">
+                        <img src="media/project1-step6.jpg" alt="Step 6" class="carousel-image">
+                        <img src="media/project1-step7.jpg" alt="Step 7" class="carousel-image">
+                        <img src="media/project1-step8.jpg" alt="Step 8" class="carousel-image">
+                        <img src="media/project1-step9.jpg" alt="Step 9" class="carousel-image">
+                        <img src="media/project1-step10.jpg" alt="Step 10" class="carousel-image">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-video project-icon"></i>
+                            <h3>AI-Based Online Exam Integrity Monitoring System</h3>
+                        </div>
+                        <p>Designed and built a real-time AI proctoring system leveraging deep learning to detect suspicious behaviors (head movement, mobile phone use, anomalous activity).</p>
+                        <ul class="project-bullets">
+                            <li>Implemented YOLOv8 for real-time object detection and DenseNet121 (CNN) for behavioral classification.</li>
+                            <li>Deployed a Flask-based RESTful monitoring dashboard for live session tracking and automated incident logging.</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>YOLOv8</span>
+                            <span>DenseNet121</span>
+                            <span>OpenCV</span>
+                            <span>Flask</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card project-card fade-in">
+                    <div class="project-image-container">
+                        <video autoplay loop muted playsinline class="project-image">
+                            <source src="media/project2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-film project-icon"></i>
+                            <h3>Personalized Movie Recommendation System</h3>
+                        </div>
+                        <p>Built a content-based recommendation engine applying NLP feature extraction and cosine similarity on movie metadata to deliver personalized recommendations.</p>
+                        <ul class="project-bullets">
+                            <li>Conducted comprehensive EDA and feature engineering with Pandas and NumPy to model user preference patterns.</li>
+                            <li>Deployed an interactive Flask web application integrating the TMDB REST API.</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Scikit-learn</span>
+                            <span>NLP</span>
+                            <span>Flask</span>
+                            <span>TMDB API</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <h2 class="section-title fade-in">My <span>Certifications</span></h2>
+            <div class="projects-grid">
+                
+                <div class="glass-card project-card fade-in">
+                    <div class="project-image-container">
+                        <img src="media/Full-Stack-Certificate.png" alt="Full Stack Certificate" class="project-image cert-image">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-certificate project-icon"></i>
+                            <h3>Full Stack Development Internship</h3>
+                        </div>
+                        <p>BlackBucks Engineers</p>
+                    </div>
+                </div>
+
+                <div class="glass-card project-card fade-in">
+                    <div class="project-image-container">
+                        <img src="media/Python-Certificate.png" alt="Python Certificate" class="project-image cert-image">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-certificate project-icon"></i>
+                            <h3>Python</h3>
+                        </div>
+                        <p>Spoken Tutorial, IIT Bombay</p>
+                    </div>
+                </div>
+
+                <div class="glass-card project-card fade-in">
+                    <div class="project-image-container">
+                        <img src="media/MySQL-Certificate.png" alt="MySQL Certificate" class="project-image cert-image">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-certificate project-icon"></i>
+                            <h3>MySQL</h3>
+                        </div>
+                        <p>Spoken Tutorial, IIT Bombay</p>
+                    </div>
+                </div>
+
+                <div class="glass-card project-card fade-in">
+                    <div class="project-image-container">
+                        <img src="media/Html-Certificate.png" alt="HTML Certificate" class="project-image cert-image">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-certificate project-icon"></i>
+                            <h3>HTML</h3>
+                        </div>
+                        <p>Spoken Tutorial, IIT Bombay</p>
+                    </div>
+                </div>
+
+                <div class="glass-card project-card fade-in">
+                    <div class="project-image-container">
+                        <img src="media/C-Certificate.png" alt="C Certificate" class="project-image cert-image">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-certificate project-icon"></i>
+                            <h3>C / C++</h3>
+                        </div>
+                        <p>Spoken Tutorial, IIT Bombay</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In <span>Touch</span></h2>
+            <div class="glass-card contact-card fade-in">
+                <p>I'm currently looking for new opportunities to apply my advanced analytics and predictive modeling expertise. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Marathahalli, Bengaluru – 560037</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+91 7989181931</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:chandutumburu@gmail.com">chandutumburu@gmail.com</a>
+                    </div>
+                </div>
+
+                <a href="mailto:chandutumburu@gmail.com" class="btn btn-primary mt-4">Say Hello</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Chandu Tumburu. Built with HTML, CSS & JS.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
